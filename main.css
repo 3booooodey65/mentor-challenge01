@@ -1,0 +1,65 @@
+*{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+}
+.parentDiv{
+    background-color: hsl(0, 0%, 12%);
+    border-radius: 10px;
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.profileDiv p{
+    font-size: 14px;
+    color: white;
+}
+.profileDiv h3{
+    margin: 15px;
+    color: hsl(75, 94%, 57%);
+}
+.profileDiv h1{
+    color: white;
+}
+.profileDiv img{
+    margin: 10px;
+    border-radius: 50%;
+    width: 100px;
+}
+.profileDiv{
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linksDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.linksDiv a:hover{
+    scale: 1.1;
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+}
+.linksDiv a{
+    font-weight: 700;
+    transition: 0.2s;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: hsl(0, 0%, 20%);
+    margin: 10px;
+    text-align: center;
+    width: 300px;
+}
